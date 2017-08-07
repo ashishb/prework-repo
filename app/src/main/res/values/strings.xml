@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TODO application</string>
+    <string name="et_new_item_hint">Enter a new item</string>
+</resources>
