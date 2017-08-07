@@ -17,7 +17,7 @@ public class EditActivity extends AppCompatActivity {
 
     private int position;
 
-    public static Intent getIntent(Context context, String currentValue, int position) {
+    public static Intent getEditIntent(Context context, String currentValue, int position) {
         Intent intent = new Intent(context, EditActivity.class);
         intent.putExtra(EDIT_CURRENT_VALUE, currentValue);
         intent.putExtra(EDIT_POSITION, position);
